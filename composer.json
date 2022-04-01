@@ -1,0 +1,24 @@
+{
+    "name": "nonsecurity/composerdev",
+    "description": "this is test",
+    "type": "library",
+    "require": {
+        "overtrue/wechat": "^5.13"
+    },
+    "require-dev": {
+        "hyperf/ide-helper": "~2.2.0"
+    },
+    "license": "Apache",
+    "autoload": {
+        "psr-4": {
+            "Nonsecurity\\Composerdev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "宋健安",
+            "email": "506780989@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
